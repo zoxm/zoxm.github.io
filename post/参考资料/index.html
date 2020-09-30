@@ -5,7 +5,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    关于 | LINUX书签
+    参考资料 | LINUX书签
 </title>
 <link rel="shortcut icon" href="https://zoxm.github.io/favicon.ico?v=1601456131654">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -99,18 +99,57 @@
                 <div id="content" class="main-container-left">
                     <article class="post i-card">
                         <h2 class="post-title">
-                            关于
+                            参考资料
                         </h2>
                         <div class="post-info">
-                            <time class="post-time">2019-01-25</time>
+                            <time class="post-time">2020-09-30</time>
                             
+                                <a href="https://zoxm.github.io/tag/szqGhgbWG/" class="post-tag i-tag
+                            i-tag-">
+                            #参考资料
+                        </a>
+                                
+                                <a href="https://zoxm.github.io/tag/sLgsgsyQx5/" class="post-tag i-tag
+                            i-tag-banana">
+                            #内核介绍
+                        </a>
+                                
+                                <a href="https://zoxm.github.io/tag/omeKYtDssp/" class="post-tag i-tag
+                            i-tag-other_2">
+                            #版本介绍
+                        </a>
+                                
+                                <a href="https://zoxm.github.io/tag/1VRQL4_6Wc/" class="post-tag i-tag
+                            i-tag-">
+                            #版本下载
+                        </a>
+                                
+                                <a href="https://zoxm.github.io/tag/b5W2t5LPZu/" class="post-tag i-tag
+                            i-tag-success">
+                            #内核下载
+                        </a>
+                                
+                                <a href="https://zoxm.github.io/tag/ot9rvjQj0R/" class="post-tag i-tag
+                            i-tag-info">
+                            #版本异同
+                        </a>
+                                
                         </div>
                         
+                            <div class="post-feature-image" style="background-image: url('https://i.linuxtoy.org/docs/guide/images/unix/linuxbranches.png')"></div>
+                            
                                 <div class="post-content">
-                                    <blockquote>
-<p>欢迎来到我的小站<br>
-联系方式：<code>mnmiaoyi@126.com</code></p>
-</blockquote>
+                                    <h1 id="目录">👉目录</h1>
+<h2 id="版本">版本</h2>
+<p><a href="https://distrowatch.com/">https://distrowatch.com/</a></p>
+<h2 id="内核">内核</h2>
+<h3 id="内核下载">内核下载</h3>
+<p><a href="https://www.kernel.org/">https://www.kernel.org/</a></p>
+<h3 id="说明文档">说明文档</h3>
+<p><a href="https://www.kernel.org/doc/html/latest/">https://www.kernel.org/doc/html/latest/</a></p>
+<h2 id="其他">其他</h2>
+<h3 id="开源世界旅行手册">开源世界旅行手册</h3>
+<p><a href="https://i.linuxtoy.org/docs/guide/">https://i.linuxtoy.org/docs/guide/</a></p>
 
                                 </div>
                     </article>
@@ -124,32 +163,57 @@
                 <!-- right -->
                 <div id="sidebar" class="main-container-right">
                     
-                                <!-- id-card -->
-                                
-    <div class="id_card i-card">
-        <div class="id_card-avatar" style="background-image: url(https://zoxm.github.io/images/avatar.png?v=1601456131654)">
-        </div>
-        <h1 class="id_card-title">
-            LINUX书签
-        </h1>
-        <h2 class="id_card-description">
-            你收藏我的网站，缘分使然。
-        </h2>
-        <!--  -->
-        <div class="id_card-sns">
-            <!-- github -->
-            
-                    <!-- twitter -->
-                    
-                            <!-- weibo -->
-                            
-                                    <!-- facebook -->
-                                    
+                        <!-- toc -->
+                        
+    <div class="toc-card i-card ">
+        <div class="toc-title i-card-title">目录</div>
+        <div class="toc-content">
+            <ul class="markdownIt-TOC">
+<li><a href="#%E7%9B%AE%E5%BD%95">👉目录</a>
+<ul>
+<li><a href="#%E7%89%88%E6%9C%AC">版本</a></li>
+<li><a href="#%E5%86%85%E6%A0%B8">内核</a>
+<ul>
+<li><a href="#%E5%86%85%E6%A0%B8%E4%B8%8B%E8%BD%BD">内核下载</a></li>
+<li><a href="#%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3">说明文档</a></li>
+</ul>
+</li>
+<li><a href="#%E5%85%B6%E4%BB%96">其他</a>
+<ul>
+<li><a href="#%E5%BC%80%E6%BA%90%E4%B8%96%E7%95%8C%E6%97%85%E8%A1%8C%E6%89%8B%E5%86%8C">开源世界旅行手册</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 
         </div>
+        <script>
+            function locateCatelogList() {
+                /*获取文章目录集合,可通过:header过滤器*/
+                var alis = $('.post-content :header');
+                /*获取侧边栏目录列表集合**/
+                var sidebar_alis = $('.markdownIt-TOC a');
+                /*获取滚动条到顶部的距离*/
+                var scroll_height = $(window).scrollTop();
+                for (var i = 0; i < alis.length; i++) {
+                    /*获取锚点集合中的元素分别到顶点的距离*/
+                    var a_height = $(alis[i]).offset().top;
+                    if (a_height < scroll_height) {
+                        /*高亮显示*/
+                        sidebar_alis.removeClass('on');
+                        $(sidebar_alis[i]).addClass('on');
+                    }
+                }
+            }
+            $(function() {
+                /*绑定滚动事件 */
+                $(window).bind('scroll', locateCatelogList);
+            });
+        </script>
     </div>
     
-                                    
+                            
 
                 </div>
 
