@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zoxm.github.io</id>
     <title>zeroer-my</title>
-    <updated>2020-11-16T07:52:12.519Z</updated>
+    <updated>2020-11-16T09:30:39.689Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zoxm.github.io"/>
     <link rel="self" href="https://zoxm.github.io/atom.xml"/>
-    <subtitle>缘分使然</subtitle>
+    <subtitle>一个清新简约的网站</subtitle>
     <logo>https://zoxm.github.io/images/avatar.png</logo>
     <icon>https://zoxm.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, zeroer-my</rights>
@@ -16,13 +16,18 @@
         <link href="https://zoxm.github.io/镜像网站/">
         </link>
         <updated>2020-09-30T08:37:55.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="推荐">推荐</h2>
-<p><a href="http://debian.ustc.edu.cn/">http://debian.ustc.edu.cn/</a>        中国科学技术大学开源镜像站<br>
-<a href="https://mirrors.tuna.tsinghua.edu.cn/">https://mirrors.tuna.tsinghua.edu.cn/</a>              清华大学开源软件镜像站<br>
-<a href="http://mirrors.mit.edu/">http://mirrors.mit.edu/</a> 麻省理工学院开源镜像站</p>
-<h2 id="国内">国内</h2>
-<h3 id="知名大学">知名大学</h3>
-<p><a href="https://mirrors.tuna.tsinghua.edu.cn/">https://mirrors.tuna.tsinghua.edu.cn/</a>              清华大学开源软件镜像站<br>
+        <summary type="html"><![CDATA[<h4 id="推荐">推荐</h4>
+<p><a href="http://mirrors.163.com/">http://mirrors.163.com/</a>网易开源镜像站<br>
+<a href="http://mirrors.mit.edu/">http://mirrors.mit.edu/</a> 麻省理工学院开源镜像站<br>
+<a href="https://www.archlinux.org/mirrorlist/all/">https://www.archlinux.org/mirrorlist/all/</a> 参考archlinux所有镜像源</p>
+]]></summary>
+        <content type="html"><![CDATA[<h4 id="推荐">推荐</h4>
+<p><a href="http://mirrors.163.com/">http://mirrors.163.com/</a>网易开源镜像站<br>
+<a href="http://mirrors.mit.edu/">http://mirrors.mit.edu/</a> 麻省理工学院开源镜像站<br>
+<a href="https://www.archlinux.org/mirrorlist/all/">https://www.archlinux.org/mirrorlist/all/</a> 参考archlinux所有镜像源</p>
+<!-- more -->
+<h4 id="知名大学">知名大学</h4>
+<p><a href="https://mirrors.tuna.tsinghua.edu.cn/">https://mirrors.tuna.tsinghua.edu.cn/</a>清华大学开源软件镜像站<br>
 <a href="https://mirrors.tuna.tsinghua.edu.cn/help/elpa/">https://mirrors.tuna.tsinghua.edu.cn/help/elpa/</a> 清华大学MELPA镜像<br>
 <a href="http://debian.ustc.edu.cn/">http://debian.ustc.edu.cn/</a>        中国科学技术大学开源镜像站<br>
 <a href="http://mirror.bjtu.edu.cn/cn/">http://mirror.bjtu.edu.cn/cn/</a> 北京交通大学开源镜像站<br>
@@ -30,28 +35,23 @@
 <a href="http://mirror.neu.edu.cn/">http://mirror.neu.edu.cn/</a> 东北大学开源镜像站<br>
 <a href="http://mirror.lzu.edu.cn/">http://mirror.lzu.edu.cn/</a> 兰大开源社区镜像站<br>
 <a href="http://linux.xidian.edu.cn/">http://linux.xidian.edu.cn/</a> 西电开源社区软件源<br>
-<a href="http://run.hit.edu.cn/html/">http://run.hit.edu.cn/html/</a> 哈尔滨工业大学开源镜像站<br>
-<a href="http://mirrors.stuhome.net/">http://mirrors.stuhome.net/</a> 电子科技大学开源镜像服务<br>
 <a href="http://mirrors.hust.edu.cn/">http://mirrors.hust.edu.cn/</a> 华中科技大学开源镜像服务<br>
-<a href="ttp://ftp.sjtu.edu.cn/">ttp://ftp.sjtu.edu.cn/</a> 上海交通大学开源镜像服务<br>
+<a href="http://ftp.sjtu.edu.cn/">http://ftp.sjtu.edu.cn/</a> 上海交通大学开源镜像服务<br>
 <a href="http://mirrors.zju.edu.cn/">http://mirrors.zju.edu.cn/</a> 浙江大学开源镜像服务<br>
-<a href="ttp://mirror.sysu.edu.cn/">ttp://mirror.sysu.edu.cn/</a> 中山大学开源镜像服务<br>
 <a href="http://mirrors.cqu.edu.cn">http://mirrors.cqu.edu.cn</a> 重庆大学开源镜像服务</p>
-<h3 id="商业公司">商业公司</h3>
+<h4 id="商业公司">商业公司</h4>
 <p><a href="http://mirrors.163.com/">http://mirrors.163.com/</a>              网易开源镜像站<br>
 <a href="http://mirrors.aliyun.com/">http://mirrors.aliyun.com/</a> 阿里巴巴开源镜像<br>
 <a href="http://mirrors.sohu.com/">http://mirrors.sohu.com/</a> 搜狐开源镜像站<br>
-<a href="http://ruby.taobao.org/">http://ruby.taobao.org/</a> 淘宝网开源镜像站<br>
-<a href="https://npm.taobao.org/">https://npm.taobao.org/</a> 淘宝NPM镜像<br>
 <a href="https://mirrors.cloud.tencent.com/">https://mirrors.cloud.tencent.com/</a> 腾讯开源镜像站</p>
-<h2 id="国外">国外</h2>
+<h4 id="国外">国外</h4>
 <p><a href="http://ftp.jaist.ac.jp/pub/">http://ftp.jaist.ac.jp/pub/</a> 北陆先端科学技术大学院大学JAIST开源镜像站<br>
 <a href="http://www.club.cc.cmu.edu/pub/">http://www.club.cc.cmu.edu/pub/</a> 卡内基梅隆大学开源镜像站<br>
 <a href="http://mirrors.mit.edu/">http://mirrors.mit.edu/</a> 麻省理工学院开源镜像站<br>
 <a href="http://mirror.cc.columbia.edu/">http://mirror.cc.columbia.edu/</a> 哥伦比亚大学开源镜像站<br>
-<a href="http://ftp.osuosl.org/pub/">http://ftp.osuosl.org/pub/</a> 俄勒冈州立大学开源镜像站<br>
-<a href="http://cosmos.cites.illinois.edu/">http://cosmos.cites.illinois.edu/</a> 伊利诺伊大学厄巴纳－香槟分校 开源镜像站<br>
-<a href="http://archive.linux.duke.edu/">http://archive.linux.duke.edu/</a> 杜克大学开源镜像站</p>
+<a href="http://ftp.osuosl.org/pub/">http://ftp.osuosl.org/pub/</a> 俄勒冈州立大学开源镜像站</p>
+<h4 id="所有">所有</h4>
+<p><a href="https://www.archlinux.org/mirrorlist/all/">https://www.archlinux.org/mirrorlist/all/</a>参考archlinux镜像</p>
 ]]></content>
     </entry>
     <entry>
@@ -60,16 +60,21 @@
         <link href="https://zoxm.github.io/参考资料/">
         </link>
         <updated>2020-09-30T07:36:31.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="目录">👉目录</h1>
-<h2 id="版本">版本</h2>
+        <summary type="html"><![CDATA[<h4 id="版本">版本</h4>
 <p><a href="https://distrowatch.com/">https://distrowatch.com/</a></p>
-<h2 id="内核">内核</h2>
-<h3 id="内核下载">内核下载</h3>
+<h4 id="内核">内核</h4>
 <p><a href="https://www.kernel.org/">https://www.kernel.org/</a></p>
-<h3 id="说明文档">说明文档</h3>
+<h4 id="说明文档">说明文档</h4>
 <p><a href="https://www.kernel.org/doc/html/latest/">https://www.kernel.org/doc/html/latest/</a></p>
-<h2 id="其他">其他</h2>
-<h3 id="开源世界旅行手册">开源世界旅行手册</h3>
+]]></summary>
+        <content type="html"><![CDATA[<h4 id="版本">版本</h4>
+<p><a href="https://distrowatch.com/">https://distrowatch.com/</a></p>
+<h4 id="内核">内核</h4>
+<p><a href="https://www.kernel.org/">https://www.kernel.org/</a></p>
+<h4 id="说明文档">说明文档</h4>
+<p><a href="https://www.kernel.org/doc/html/latest/">https://www.kernel.org/doc/html/latest/</a></p>
+<!-- more -->
+<h5 id="其他">其他</h5>
 <p><a href="https://i.linuxtoy.org/docs/guide/">https://i.linuxtoy.org/docs/guide/</a></p>
 ]]></content>
     </entry>
