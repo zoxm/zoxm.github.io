@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zoxm.github.io</id>
     <title>zeroermy</title>
-    <updated>2020-11-16T09:36:56.781Z</updated>
+    <updated>2020-11-18T09:30:38.804Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zoxm.github.io"/>
     <link rel="self" href="https://zoxm.github.io/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://zoxm.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, zeroermy</rights>
     <entry>
-        <title type="html"><![CDATA[镜像网站]]></title>
+        <title type="html"><![CDATA[镜像源网站]]></title>
         <id>https://zoxm.github.io/镜像网站/</id>
         <link href="https://zoxm.github.io/镜像网站/">
         </link>
@@ -55,7 +55,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[参考资料]]></title>
+        <title type="html"><![CDATA[Linux官方参考资料]]></title>
         <id>https://zoxm.github.io/参考资料/</id>
         <link href="https://zoxm.github.io/参考资料/">
         </link>
